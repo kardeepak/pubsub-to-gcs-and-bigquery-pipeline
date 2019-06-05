@@ -1,0 +1,36 @@
+[
+    {
+        "aggregate": "89437",
+        "body": {
+            "currentTrip": 157166734,
+            "driver": {
+                "id": 89437
+            },
+            "lastUpdatedAt": "2019-05-27T09:39:03Z",
+            "location": {
+                "accuracy": 3.0,
+                "bearing": 159.76112365722656,
+                "lat": 7.2913994789123535,
+                "lng": 80.6465835571289,
+                "speed": 0.3700000047683716,
+                "time": "1970-01-01T00:00:00Z"
+            },
+            "profileStatus": {
+                "companyValid": true,
+                "driverMapValid": true,
+                "driverValid": true,
+                "motorModelValid": true,
+                "taxiValid": true
+            },
+            "shiftIn": true,
+            "shiftStartedAt": "2019-05-27T01:45:40Z",
+            "status": "F",
+            "vehicleModel": 1
+        },
+        "createdAt": "1558930143507255641",
+        "expiry": "0001-01-01T00:00:00Z",
+        "id": "0afa655c-b389-49c3-b12b-239f274b49ac",
+        "type": "DriverStatusChanged",
+        "version": 1
+    }
+]

@@ -1,0 +1,6 @@
+INSERTION_TIME, TIMESTAMP, CELL_ID, VEHICLE_MODEL, FREE_DRIVER_COUNT, APP_OPEN_COUNT_ZERO_VEHICLES, APP_OPEN_COUNT_NONZERO_VEHICLES, TRIP_REQUEST_COUNT, DEMAND, SUPPLY
+
+demand = trip created count + (app open count with no vehicle * ratio )
+ratio *= trip create count / app open with vehicle count more than  0
+supply = free status driver count
+
